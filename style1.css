@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    background-image: url(lake-192978_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100px;
+    width: 100%;
+}
+.logo{
+    width: 140px;
+    height: 60px;
+    padding: 20px 100px;
+    opacity: 0.5;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0px 8px;
+    line-height: 100px;
+}
+.navbar ul li a{
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 6px 14px;
+    transition: 1s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: red;
+    border-radius: 10px;
+}
+.wrapper .centre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.centre h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width:800px;
+    text-align: center;
+}
+.centre h2{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width:800px;
+    text-align: center;
+    padding: 20px;
+}
+.centre .buttons{
+    margin: 30px 250px;
+}
+.buttons button{
+    background: red;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 5px solid black;
+    cursor:pointer;
+    transition:1s;
+}
+.buttons button:hover{
+    background: white;
+    color:red;
+}
+#about{
+    background: greenyellow;
+    height: 500px;
+}
+#about img{
+    width: 500px;
+    height: 350px;
+}
+#service{
+    background: rebeccapurple;
+    height: 500px;
+}
+#contact{
+    background-color: brown;
+    height: 500px;
+}
+#contact h1{
+    text-align: center;
+    color: aqua;
+}
+#contact form{
+    text-align: center;
+    padding: 20px;
+}
+#contact button{
+    background-color: rgb(255, 21, 0);
+    color: azure;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+}
